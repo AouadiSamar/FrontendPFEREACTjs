@@ -1,0 +1,59 @@
+.marchand-home-container {
+  margin-top: 20px;
+  padding: 20px; /* Adding padding around the container */
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.search-field {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  width: 200px;
+  max-width: 100%;
+}
+
+.add-user-button {
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 20px;
+}
+
+.add-user-button:hover {
+  background-color: #303f9f;
+}
+
+.table-container {
+  margin-top: 20px;
+  padding: 10px; /* Adding padding to the table container */
+}
+
+.icon-button.edit-icon {
+  color: #3f51b5;
+}
+
+.icon-button.delete-icon {
+  color: #e53935;
+}
+
+.marchand-link {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.marchand-link:hover {
+  text-decoration: underline;
+}
+.merchant-image {
+  width: 900px;
+  height: 700px;;
+  max-width: 500px; /* Ensure image doesn't exceed this width */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

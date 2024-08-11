@@ -1,0 +1,65 @@
+.user-details-container {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.user-details-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details-info {
+    width: 60%;
+}
+
+.user-details-image {
+    width: 35%;
+}
+
+.user-details-header {
+    margin-bottom: 20px;
+}
+
+.user-details-title {
+    color: #3f51b5;  /* Couleur du titre mise à jour */
+
+
+}
+
+.user-details-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    color: black;
+    margin-right: 5px;
+}
+ .info {
+    color: gray;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.edit-button {
+    margin-right: 20px;
+}
+
+.status-toggle {
+    display: flex;
+}
+
+.design-image {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,105 @@
+
+
+
+
+
+.search-field {
+  margin-right: 10px;
+  padding: 5px; /* Style pour enlever la bordure rectangulaire */
+}
+
+.mui-button-root {
+  background-color: #3f51b5; /* Couleur du bouton */
+  color: white;
+}
+
+.mui-button-root:hover {
+  background-color: #303f9f; /* Couleur du bouton au survol */
+}
+
+
+
+
+
+
+.client-link {
+  text-decoration: none;
+  color: #3f51b5; /* Couleur du lien */
+}
+
+
+
+
+
+
+
+
+
+
+
+.ho-container {
+    margin: 20px;
+  }
+
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .client-link {
+    text-decoration: none;
+    color: #1976d2;
+  }
+  
+  .mui-button-root {
+    margin-bottom: 20px;
+  }
+  /* Ho.css */
+
+/* Container for the table and buttons */
+.ho-container {
+  padding: 20px;
+}
+
+/* Styling for the table container */
+.table-container {
+  margin-top: 20px;
+}
+
+/* Common styling for IconButtons */
+.icon-button {
+  margin: 0 5px; /* Espacement entre les icônes */
+  color: #1976d2; /* Couleur par défaut des icônes */
+  transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+}
+
+/* Couleur au survol pour l'édition */
+.icon-button.edit-icon{
+color: #5469D4;
+  
+}
+
+.icon-button.activate-icon {
+  color: #43a047; /* Couleur pour l'activation */
+}
+
+/* Couleur au survol pour la désactivation */
+.icon-button.deactivate-icon {
+  color: #B42C2C;
+}
+
+
+/* Style pour les icônes d'édition */
+.edit-icon {
+  font-size: 24px; /* Taille des icônes */
+}
+
+/* Style pour les icônes d'activation */
+.activate-icon {
+  font-size: 24px; /* Taille des icônes */
+}
+
+/* Style pour les icônes de désactivation */
+.deactivate-icon {
+  font-size: 24px; /* Taille des icônes */
+}

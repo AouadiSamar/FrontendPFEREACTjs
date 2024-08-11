@@ -1,0 +1,91 @@
+/* Styles for the login page */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./fe.png'); /* Change this path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-logo {
+  top: 4px;
+  left: 12px;
+}
+
+.paymee-logo {
+  height: 150px; /* Adjust this value to make the logo larger or smaller */
+  width: auto;  /* Ensure the width adjusts proportionally */
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form .form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  box-shadow: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.login-form .form-input:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.forgot-password {
+  color: #007BFF;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.login-error {
+  color: red;
+  margin-bottom: 10px;
+}

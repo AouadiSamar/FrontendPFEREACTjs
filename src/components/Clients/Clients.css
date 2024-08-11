@@ -1,0 +1,45 @@
+.form-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .h4 {
+    color: #3f51b5; /* Couleur du titre mise à jour */
+  }
+  
+  .MuiFormControl-root {
+    margin-bottom: 20px;
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #0056b3;
+  }
+  
+  .MuiButton-outlinedSecondary {
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .MuiButton-outlinedSecondary:hover {
+    background-color: rgba(108, 117, 125, 0.1);
+  }
+  .e {
+    margin-top: 6px;
+    width: 478px;  
+  margin-left: 2px;
+    height: 590px;
+    max-width: 855px; /* Adjust the max width as needed */
+    border-radius: 10px; /* Optional: Add rounded corners */
+  }
+  

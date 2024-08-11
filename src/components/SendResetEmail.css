@@ -1,0 +1,113 @@
+.reset-password-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./fe.png'); /* */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.header-logo {
+  top: 4px;
+  left: 12px;
+}
+
+.paymee-logo {
+  height: 150px; /* Adjust this value to make the logo larger or smaller */
+  width: auto;  /* Ensure the width adjusts proportionally */
+}
+/* Section containing the form */
+.reset-password-form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Container for the form */
+.reset-password-form-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title of the form */
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styles */
+.reset-password-form .form-group {
+  margin-bottom: 20px;
+}
+
+.reset-password-form .form-label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.reset-password-form .form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button styles */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Feedback message styles */
+.feedback-message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.feedback-message.success {
+  color: green;
+}
+
+.feedback-message.error {
+  color: red;
+}
+
+/* Transparent input styles */
+.reset-password-form .form-input {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  box-shadow: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.reset-password-form .form-input:focus {
+  outline: none;
+  border-color: #007BFF;
+}

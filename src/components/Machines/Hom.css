@@ -1,0 +1,48 @@
+.machine-home-container {
+  margin: 20px; /* Adjusts margin around the entire container */
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adds space between the header and the table */
+}
+
+.search-field {
+  width: 200px; /* Adjust width as needed */
+  margin-right: 15px; /* Adjust spacing between search field and button */
+}
+
+.add-machine-button {
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 20px;
+  margin-left: auto; /* Push the button to the far right */
+}
+
+.add-machine-button:hover {
+  background-color: #303f9f;
+}
+
+.table-container {
+  margin-top: 20px;
+  padding: 10px; /* Adds padding inside the table container */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visual separation */
+}
+
+.icon-button.edit-icon {
+  color: #3f51b5; /* Edit button color */
+}
+
+.icon-button.delete-icon {
+  color: #e53935; /* Delete button color */
+}
+
+.machine-link {
+  color: #3f51b5; /* Link color */
+  text-decoration: none;
+}
+
+.machine-link:hover {
+  text-decoration: underline;
+}

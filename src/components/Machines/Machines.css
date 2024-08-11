@@ -1,0 +1,56 @@
+.form-container  {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.h4 {
+  color: #3f51b5; /* Couleur du titre mise à jour */
+}.machine-detail-container {
+  padding: 0; /* Enlever le padding */
+  margin: 0; 
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;/* Enlever la marge */
+}
+
+
+
+.MuiButton-containedPrimary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #0056b3;
+}
+
+.MuiButton-outlinedSecondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.MuiButton-outlinedSecondary:hover {
+  background-color: rgba(108, 117, 125, 0.1);
+}
+
+.f{
+  margin-top: 5px;
+  width: 460px;  
+margin-right: 100px;
+  height: 590px;
+  max-width: 855px; 
+  border-radius: 10px; 
+}
+
+  .e{
+    margin-top: 5px;
+    width: 460px;  
+  margin-right: 100px;
+    height: 590px;
+    max-width: 855px; 
+    border-radius: 10px; 
+  }
+  
